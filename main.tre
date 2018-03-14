@@ -1,0 +1,432 @@
+юдmain
+   цдMAIN  0/4176  Ram=34
+   Ё  цд@cinit1  (Inline)  Ram=0
+   Ё  цд@PSTRINGC_9600_31766_31767  0/34  Ram=2
+   Ё  цдcan_init  0/220  Ram=1
+   Ё  Ё  цдcan_set_mode  0/34  Ram=2
+   Ё  Ё  цдcan_set_baud  0/48  Ram=0
+   Ё  Ё  цдcan_set_id  0/304  Ram=13
+   Ё  Ё  цдcan_set_id  0/304  Ram=13
+   Ё  Ё  цдcan_set_id  0/304  Ram=13
+   Ё  Ё  цдcan_set_id  0/304  Ram=13
+   Ё  Ё  цдcan_set_id  0/304  Ram=13
+   Ё  Ё  цдcan_set_id  0/304  Ram=13
+   Ё  Ё  цдcan_set_id  0/304  Ram=13
+   Ё  Ё  цдcan_set_id  0/304  Ram=13
+   Ё  Ё  юдcan_set_mode  0/34  Ram=2
+   Ё  цдlcd_init  0/72  Ram=2
+   Ё  Ё  цд@delay_ms1  0/38  Ram=1
+   Ё  Ё  цдlcd_send_nibble  0/32  Ram=1
+   Ё  Ё  Ё  юдmake_out_data  0/52  Ram=1
+   Ё  Ё  цд@delay_ms1  0/38  Ram=1
+   Ё  Ё  цдlcd_send_nibble  0/32  Ram=1
+   Ё  Ё  Ё  юд*
+   Ё  Ё  цд@const879  0/20  Ram=0
+   Ё  Ё  юдlcd_send_byte  0/70  Ram=3
+   Ё  Ё     цд@delay_ms1  0/38  Ram=1
+   Ё  Ё     цдlcd_send_nibble  0/32  Ram=1
+   Ё  Ё     Ё  юд*
+   Ё  Ё     юдlcd_send_nibble  0/32  Ram=1
+   Ё  Ё        юд*
+   Ё  цд@PSTRINGC_9600_31766_31767  0/34  Ram=2
+   Ё  цд@PSTRINGCN_9600_31766_31767  0/32  Ram=3
+   Ё  цд@PRINTF_X_9600_31766_31767  0/66  Ram=2
+   Ё  цд@PSTRINGCN_9600_31766_31767  0/32  Ram=3
+   Ё  цд@PRINTF_X_9600_31766_31767  0/66  Ram=2
+   Ё  цд@delay_ms1  0/38  Ram=1
+   Ё  цд@goto11216  0/46  Ram=0
+   Ё  цд@delay_ms1  0/38  Ram=1
+   Ё  цд@ITOF  0/54  Ram=2
+   Ё  цд@MULFF  0/242  Ram=11
+   Ё  цд@ADDFF  0/618  Ram=16
+   Ё  цд@delay_ms1  0/38  Ram=1
+   Ё  цд@ITOF  0/54  Ram=2
+   Ё  цд@MULFF  0/242  Ram=11
+   Ё  цд@ADDFF  0/618  Ram=16
+   Ё  цдlcd_gotoxy  0/56  Ram=4
+   Ё  Ё  цд@goto10785  0/34  Ram=0
+   Ё  Ё  юдlcd_send_byte  0/70  Ram=3
+   Ё  Ё     юд*
+   Ё  цд@PSTRINGC_896  0/32  Ram=2
+   Ё  Ё  юдlcd_putc  0/66  Ram=1
+   Ё  Ё     цдlcd_send_byte  0/70  Ram=3
+   Ё  Ё     Ё  юд*
+   Ё  Ё     цд@delay_ms1  0/38  Ram=1
+   Ё  Ё     цдlcd_gotoxy  0/56  Ram=4
+   Ё  Ё     Ё  юд*
+   Ё  Ё     цдlcd_send_byte  0/70  Ram=3
+   Ё  Ё     Ё  юд*
+   Ё  Ё     юдlcd_send_byte  0/70  Ram=3
+   Ё  Ё        юд*
+   Ё  цдlcd_gotoxy  0/56  Ram=4
+   Ё  Ё  юд*
+   Ё  цдlcd_putc  0/66  Ram=1
+   Ё  Ё  юд*
+   Ё  цд@PRINTF_L32D_896FPFPF  0/376  Ram=13
+   Ё  Ё  цд@MULFF  0/242  Ram=11
+   Ё  Ё  цд@FTOSD  0/62  Ram=5
+   Ё  Ё  цд@DIV3232  0/142  Ram=13
+   Ё  Ё  цдlcd_putc  0/66  Ram=1
+   Ё  Ё  Ё  юд*
+   Ё  Ё  цдlcd_putc  0/66  Ram=1
+   Ё  Ё  Ё  юд*
+   Ё  Ё  цдlcd_putc  0/66  Ram=1
+   Ё  Ё  Ё  юд*
+   Ё  Ё  цдlcd_putc  0/66  Ram=1
+   Ё  Ё  Ё  юд*
+   Ё  Ё  юд@DIV3232  0/142  Ram=13
+   Ё  цдlcd_gotoxy  0/56  Ram=4
+   Ё  Ё  юд*
+   Ё  цд@PSTRINGC_896  0/32  Ram=2
+   Ё  Ё  юд*
+   Ё  цдlcd_gotoxy  0/56  Ram=4
+   Ё  Ё  юд*
+   Ё  цдlcd_putc  0/66  Ram=1
+   Ё  Ё  юд*
+   Ё  цд@PRINTF_L32D_896FPFPF  0/376  Ram=13
+   Ё  Ё  юд*
+   Ё  цдlcd_gotoxy  0/56  Ram=4
+   Ё  Ё  юд*
+   Ё  цд@PSTRINGC_896  0/32  Ram=2
+   Ё  Ё  юд*
+   Ё  цдlcd_gotoxy  0/56  Ram=4
+   Ё  Ё  юд*
+   Ё  цдlcd_putc  0/66  Ram=1
+   Ё  Ё  юд*
+   Ё  цдlcd_putc  0/66  Ram=1
+   Ё  Ё  юд*
+   Ё  цд@PRINTF_U_896  0/102  Ram=2
+   Ё  Ё  цд@DIV88  0/40  Ram=3
+   Ё  Ё  цдlcd_putc  0/66  Ram=1
+   Ё  Ё  Ё  юд*
+   Ё  Ё  цд@DIV88  0/40  Ram=3
+   Ё  Ё  цдlcd_putc  0/66  Ram=1
+   Ё  Ё  Ё  юд*
+   Ё  Ё  юдlcd_putc  0/66  Ram=1
+   Ё  Ё     юд*
+   Ё  цдlcd_gotoxy  0/56  Ram=4
+   Ё  Ё  юд*
+   Ё  цд@PSTRINGC_896  0/32  Ram=2
+   Ё  Ё  юд*
+   Ё  цдlcd_gotoxy  0/56  Ram=4
+   Ё  Ё  юд*
+   Ё  цдlcd_putc  0/66  Ram=1
+   Ё  Ё  юд*
+   Ё  цдlcd_putc  0/66  Ram=1
+   Ё  Ё  юд*
+   Ё  цд@PRINTF_U_896  0/102  Ram=2
+   Ё  Ё  юд*
+   Ё  цдlcd_gotoxy  0/56  Ram=4
+   Ё  Ё  юд*
+   Ё  цд@PSTRINGC_896  0/32  Ram=2
+   Ё  Ё  юд*
+   Ё  цдlcd_gotoxy  0/56  Ram=4
+   Ё  Ё  юд*
+   Ё  цдlcd_putc  0/66  Ram=1
+   Ё  Ё  юд*
+   Ё  цдlcd_putc  0/66  Ram=1
+   Ё  Ё  юд*
+   Ё  цд@PRINTF_U_896  0/102  Ram=2
+   Ё  Ё  юд*
+   Ё  цд@FLT  0/118  Ram=10
+   Ё  цд@FLT  0/118  Ram=10
+   Ё  цд@ITOF  0/54  Ram=2
+   Ё  цд@FLT  0/118  Ram=10
+   Ё  цд@FLT  0/118  Ram=10
+   Ё  цд@ITOF  0/54  Ram=2
+   Ё  цд@FLT  0/118  Ram=10
+   Ё  цд@ITOF  0/54  Ram=2
+   Ё  цд@FLT  0/118  Ram=10
+   Ё  цд@ITOF  0/54  Ram=2
+   Ё  цд@FLT  0/118  Ram=10
+   Ё  цдlcd_gotoxy  0/56  Ram=4
+   Ё  Ё  юд*
+   Ё  цд@PSTRINGC_896  0/32  Ram=2
+   Ё  Ё  юд*
+   Ё  цдlcd_gotoxy  0/56  Ram=4
+   Ё  Ё  юд*
+   Ё  цд@PSTRINGC_896  0/32  Ram=2
+   Ё  Ё  юд*
+   Ё  цдlcd_gotoxy  0/56  Ram=4
+   Ё  Ё  юд*
+   Ё  цд@PSTRINGCN_896  0/30  Ram=3
+   Ё  Ё  юдlcd_putc  0/66  Ram=1
+   Ё  Ё     юд*
+   Ё  цд@PRINTF_U_896  0/102  Ram=2
+   Ё  Ё  юд*
+   Ё  цдlcd_gotoxy  0/56  Ram=4
+   Ё  Ё  юд*
+   Ё  цд@PSTRINGC_896  0/32  Ram=2
+   Ё  Ё  юд*
+   Ё  цдlcd_gotoxy  0/56  Ram=4
+   Ё  Ё  юд*
+   Ё  цдlcd_putc  0/66  Ram=1
+   Ё  Ё  юд*
+   Ё  цдlcd_putc  0/66  Ram=1
+   Ё  Ё  юд*
+   Ё  цд@PRINTF_U_896  0/102  Ram=2
+   Ё  Ё  юд*
+   Ё  цдlcd_gotoxy  0/56  Ram=4
+   Ё  Ё  юд*
+   Ё  цд@PSTRINGC_896  0/32  Ram=2
+   Ё  Ё  юд*
+   Ё  цдlcd_gotoxy  0/56  Ram=4
+   Ё  Ё  юд*
+   Ё  цд@PSTRINGC_896  0/32  Ram=2
+   Ё  Ё  юд*
+   Ё  цдlcd_gotoxy  0/56  Ram=4
+   Ё  Ё  юд*
+   Ё  цд@PSTRINGCN_896  0/30  Ram=3
+   Ё  Ё  юд*
+   Ё  цд@PRINTF_U_896  0/102  Ram=2
+   Ё  Ё  юд*
+   Ё  цдlcd_gotoxy  0/56  Ram=4
+   Ё  Ё  юд*
+   Ё  цд@PSTRINGC_896  0/32  Ram=2
+   Ё  Ё  юд*
+   Ё  цдlcd_gotoxy  0/56  Ram=4
+   Ё  Ё  юд*
+   Ё  цдlcd_putc  0/66  Ram=1
+   Ё  Ё  юд*
+   Ё  цдlcd_putc  0/66  Ram=1
+   Ё  Ё  юд*
+   Ё  цд@PRINTF_U_896  0/102  Ram=2
+   Ё  Ё  юд*
+   Ё  цд@delay_ms1  0/38  Ram=1
+   Ё  цдlcd_gotoxy  0/56  Ram=4
+   Ё  Ё  юд*
+   Ё  цд@PSTRINGC_896  0/32  Ram=2
+   Ё  Ё  юд*
+   Ё  цдlcd_gotoxy  0/56  Ram=4
+   Ё  Ё  юд*
+   Ё  цд@PSTRINGC_896  0/32  Ram=2
+   Ё  Ё  юд*
+   Ё  цдlcd_gotoxy  0/56  Ram=4
+   Ё  Ё  юд*
+   Ё  цд@PSTRINGCN_896  0/30  Ram=3
+   Ё  Ё  юд*
+   Ё  цд@PRINTF_U_896  0/102  Ram=2
+   Ё  Ё  юд*
+   Ё  цдlcd_gotoxy  0/56  Ram=4
+   Ё  Ё  юд*
+   Ё  цд@PSTRINGC_896  0/32  Ram=2
+   Ё  Ё  юд*
+   Ё  цдlcd_gotoxy  0/56  Ram=4
+   Ё  Ё  юд*
+   Ё  цд@PSTRINGCN_896  0/30  Ram=3
+   Ё  Ё  юд*
+   Ё  цд@PRINTF_U_896  0/102  Ram=2
+   Ё  Ё  юд*
+   Ё  цдlcd_gotoxy  0/56  Ram=4
+   Ё  Ё  юд*
+   Ё  цд@PSTRINGC_896  0/32  Ram=2
+   Ё  Ё  юд*
+   Ё  цдlcd_gotoxy  0/56  Ram=4
+   Ё  Ё  юд*
+   Ё  цд@PSTRINGC_896  0/32  Ram=2
+   Ё  Ё  юд*
+   Ё  цдlcd_gotoxy  0/56  Ram=4
+   Ё  Ё  юд*
+   Ё  цд@PSTRINGCN_896  0/30  Ram=3
+   Ё  Ё  юд*
+   Ё  цд@PRINTF_U_896  0/102  Ram=2
+   Ё  Ё  юд*
+   Ё  цдlcd_gotoxy  0/56  Ram=4
+   Ё  Ё  юд*
+   Ё  цд@PSTRINGC_896  0/32  Ram=2
+   Ё  Ё  юд*
+   Ё  цдlcd_gotoxy  0/56  Ram=4
+   Ё  Ё  юд*
+   Ё  цд@PSTRINGCN_896  0/30  Ram=3
+   Ё  Ё  юд*
+   Ё  цд@PRINTF_U_896  0/102  Ram=2
+   Ё  Ё  юд*
+   Ё  цдlcd_gotoxy  0/56  Ram=4
+   Ё  Ё  юд*
+   Ё  цд@PSTRINGC_896  0/32  Ram=2
+   Ё  Ё  юд*
+   Ё  цдlcd_gotoxy  0/56  Ram=4
+   Ё  Ё  юд*
+   Ё  цд@PSTRINGC_896  0/32  Ram=2
+   Ё  Ё  юд*
+   Ё  цдlcd_gotoxy  0/56  Ram=4
+   Ё  Ё  юд*
+   Ё  цд@PSTRINGCN_896  0/30  Ram=3
+   Ё  Ё  юд*
+   Ё  цд@PRINTF_U_896  0/102  Ram=2
+   Ё  Ё  юд*
+   Ё  цдlcd_gotoxy  0/56  Ram=4
+   Ё  Ё  юд*
+   Ё  цд@PSTRINGC_896  0/32  Ram=2
+   Ё  Ё  юд*
+   Ё  цдlcd_gotoxy  0/56  Ram=4
+   Ё  Ё  юд*
+   Ё  цд@PSTRINGCN_896  0/30  Ram=3
+   Ё  Ё  юд*
+   Ё  цд@PRINTF_U_896  0/102  Ram=2
+   Ё  Ё  юд*
+   Ё  цдlcd_gotoxy  0/56  Ram=4
+   Ё  Ё  юд*
+   Ё  цд@PSTRINGC_896  0/32  Ram=2
+   Ё  Ё  юд*
+   Ё  цдlcd_gotoxy  0/56  Ram=4
+   Ё  Ё  юд*
+   Ё  цдlcd_putc  0/66  Ram=1
+   Ё  Ё  юд*
+   Ё  цдlcd_putc  0/66  Ram=1
+   Ё  Ё  юд*
+   Ё  цд@PRINTF_L32D_896FPFPF  0/376  Ram=13
+   Ё  Ё  юд*
+   Ё  цдlcd_gotoxy  0/56  Ram=4
+   Ё  Ё  юд*
+   Ё  цд@PSTRINGC_896  0/32  Ram=2
+   Ё  Ё  юд*
+   Ё  цдlcd_gotoxy  0/56  Ram=4
+   Ё  Ё  юд*
+   Ё  цдlcd_putc  0/66  Ram=1
+   Ё  Ё  юд*
+   Ё  цдlcd_putc  0/66  Ram=1
+   Ё  Ё  юд*
+   Ё  цд@PRINTF_L32D_896FPFPF  0/376  Ram=13
+   Ё  Ё  юд*
+   Ё  цдlcd_gotoxy  0/56  Ram=4
+   Ё  Ё  юд*
+   Ё  цд@PSTRINGC_896  0/32  Ram=2
+   Ё  Ё  юд*
+   Ё  цдlcd_gotoxy  0/56  Ram=4
+   Ё  Ё  юд*
+   Ё  цдlcd_putc  0/66  Ram=1
+   Ё  Ё  юд*
+   Ё  цдlcd_putc  0/66  Ram=1
+   Ё  Ё  юд*
+   Ё  цд@PRINTF_L32D_896FPFPF  0/376  Ram=13
+   Ё  Ё  юд*
+   Ё  цдlcd_gotoxy  0/56  Ram=4
+   Ё  Ё  юд*
+   Ё  цд@PSTRINGC_896  0/32  Ram=2
+   Ё  Ё  юд*
+   Ё  цдlcd_gotoxy  0/56  Ram=4
+   Ё  Ё  юд*
+   Ё  цд@PSTRINGC_896  0/32  Ram=2
+   Ё  Ё  юд*
+   Ё  цдlcd_gotoxy  0/56  Ram=4
+   Ё  Ё  юд*
+   Ё  цд@PSTRINGCN_896  0/30  Ram=3
+   Ё  Ё  юд*
+   Ё  цд@PRINTF_L32D_896FPFPF  0/376  Ram=13
+   Ё  Ё  юд*
+   Ё  цдlcd_gotoxy  0/56  Ram=4
+   Ё  Ё  юд*
+   Ё  цдlcd_putc  0/66  Ram=1
+   Ё  Ё  юд*
+   Ё  цдlcd_putc  0/66  Ram=1
+   Ё  Ё  юд*
+   Ё  цдlcd_gotoxy  0/56  Ram=4
+   Ё  Ё  юд*
+   Ё  цд@PSTRINGC_896  0/32  Ram=2
+   Ё  Ё  юд*
+   Ё  цдlcd_gotoxy  0/56  Ram=4
+   Ё  Ё  юд*
+   Ё  цд@PSTRINGC_896  0/32  Ram=2
+   Ё  Ё  юд*
+   Ё  цдlcd_gotoxy  0/56  Ram=4
+   Ё  Ё  юд*
+   Ё  цд@PSTRINGCN_896  0/30  Ram=3
+   Ё  Ё  юд*
+   Ё  цд@PRINTF_L32D_896FPFPF  0/376  Ram=13
+   Ё  Ё  юд*
+   Ё  цдlcd_gotoxy  0/56  Ram=4
+   Ё  Ё  юд*
+   Ё  цд@PSTRINGC_896  0/32  Ram=2
+   Ё  Ё  юд*
+   Ё  цдlcd_gotoxy  0/56  Ram=4
+   Ё  Ё  юд*
+   Ё  цд@PSTRINGC_896  0/32  Ram=2
+   Ё  Ё  юд*
+   Ё  цдlcd_gotoxy  0/56  Ram=4
+   Ё  Ё  юд*
+   Ё  цд@PSTRINGC_896  0/32  Ram=2
+   Ё  Ё  юд*
+   Ё  цдlcd_gotoxy  0/56  Ram=4
+   Ё  Ё  юд*
+   Ё  цд@PSTRINGCN_896  0/30  Ram=3
+   Ё  Ё  юд*
+   Ё  цд@PRINTF_L32D_896FPFPF  0/376  Ram=13
+   Ё  Ё  юд*
+   Ё  цдlcd_gotoxy  0/56  Ram=4
+   Ё  Ё  юд*
+   Ё  цд@PSTRINGC_896  0/32  Ram=2
+   Ё  Ё  юд*
+   Ё  цдlcd_gotoxy  0/56  Ram=4
+   Ё  Ё  юд*
+   Ё  цд@PSTRINGC_896  0/32  Ram=2
+   Ё  Ё  юд*
+   Ё  цдlcd_gotoxy  0/56  Ram=4
+   Ё  Ё  юд*
+   Ё  цд@PSTRINGCN_896  0/30  Ram=3
+   Ё  Ё  юд*
+   Ё  цд@PRINTF_L32D_896FPFPF  0/376  Ram=13
+   Ё  Ё  юд*
+   Ё  цдlcd_gotoxy  0/56  Ram=4
+   Ё  Ё  юд*
+   Ё  цд@PSTRINGC_896  0/32  Ram=2
+   Ё  Ё  юд*
+   Ё  цдcan_getd  (Inline)  Ram=14
+   Ё  Ё  юдcan_get_id  0/482  Ram=14
+   Ё  цд@PSTRINGCN_9600_31766_31767  0/32  Ram=3
+   Ё  цд@PRINTF_L32D_9600_31766_31767FPFPF  0/386  Ram=13
+   Ё  Ё  цд@MULFF  0/242  Ram=11
+   Ё  Ё  цд@FTOSD  0/62  Ram=5
+   Ё  Ё  цд@DIV3232  0/142  Ram=13
+   Ё  Ё  юд@DIV3232  0/142  Ram=13
+   Ё  цд@PSTRINGCN_9600_31766_31767  0/32  Ram=3
+   Ё  цд@PRINTF_L32D_9600_31766_31767FPFPF  0/386  Ram=13
+   Ё  Ё  юд*
+   Ё  цд@PSTRINGCN_9600_31766_31767  0/32  Ram=3
+   Ё  цд@PRINTF_L32D_9600_31766_31767FPFPF  0/386  Ram=13
+   Ё  Ё  юд*
+   Ё  цд@PSTRINGCN_9600_31766_31767  0/32  Ram=3
+   Ё  цд@PRINTF_L32D_9600_31766_31767FPFPF  0/386  Ram=13
+   Ё  Ё  юд*
+   Ё  цд@PSTRINGCN_9600_31766_31767  0/32  Ram=3
+   Ё  цд@PRINTF_L32D_9600_31766_31767FPFPF  0/386  Ram=13
+   Ё  Ё  юд*
+   Ё  цд@PSTRINGCN_9600_31766_31767  0/32  Ram=3
+   Ё  цд@PRINTF_L32D_9600_31766_31767FPFPF  0/386  Ram=13
+   Ё  Ё  юд*
+   Ё  цд@PSTRINGCN_9600_31766_31767  0/32  Ram=3
+   Ё  цд@PRINTF_L32D_9600_31766_31767FPFPF  0/386  Ram=13
+   Ё  Ё  юд*
+   Ё  цд@PSTRINGCN_9600_31766_31767  0/32  Ram=3
+   Ё  цд@PRINTF_U_9600_31766_31767  0/108  Ram=2
+   Ё  Ё  цд@DIV88  0/40  Ram=3
+   Ё  Ё  юд@DIV88  0/40  Ram=3
+   Ё  цд@PSTRINGCN_9600_31766_31767  0/32  Ram=3
+   Ё  цд@PRINTF_L32U_9600_31766_31767  0/168  Ram=12
+   Ё  Ё  цд@DIV3232  0/142  Ram=13
+   Ё  Ё  юд@DIV3232  0/142  Ram=13
+   Ё  цд@PSTRINGCN_9600_31766_31767  0/32  Ram=3
+   Ё  цд@PRINTF_U_9600_31766_31767  0/108  Ram=2
+   Ё  Ё  юд*
+   Ё  цд@PSTRINGCN_9600_31766_31767  0/32  Ram=3
+   Ё  цд@PRINTF_U_9600_31766_31767  0/108  Ram=2
+   Ё  Ё  юд*
+   Ё  цд@PSTRINGCN_9600_31766_31767  0/32  Ram=3
+   Ё  цд@PRINTF_U_9600_31766_31767  0/108  Ram=2
+   Ё  Ё  юд*
+   Ё  цд@PSTRINGCN_9600_31766_31767  0/32  Ram=3
+   Ё  цд@PRINTF_U_9600_31766_31767  0/108  Ram=2
+   Ё  Ё  юд*
+   Ё  цд@PSTRINGCN_9600_31766_31767  0/32  Ram=3
+   Ё  цд@PRINTF_U_9600_31766_31767  0/108  Ram=2
+   Ё  Ё  юд*
+   Ё  цд@PSTRINGCN_9600_31766_31767  0/32  Ram=3
+   Ё  цд@PRINTF_U_9600_31766_31767  0/108  Ram=2
+   Ё  Ё  юд*
+   Ё  цд@PSTRINGC_9600_31766_31767  0/34  Ram=2
+   Ё  цд@PRINTF_X_9600_31766_31767  0/66  Ram=2
+   Ё  цд@PSTRINGC_9600_31766_31767  0/34  Ram=2
+   Ё  юд@delay_ms1  0/38  Ram=1
+   цдext1_isr  0/48  Ram=0
+   Ё  юд@goto10866  0/36  Ram=0
+   юдext1_isr1  0/16  Ram=0

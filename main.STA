@@ -1,0 +1,145 @@
+
+ROM used:   9442/16384 (58%)
+            9442/16384 (58%) including unused fragments
+
+            3.9 Average locations per line
+            19.6 Average locations per statement
+
+RAM used:   100/768 (13%) at main() level
+            151/768 (20%) worst case
+
+Stack used: 6 worst case (5 in main + 1 for interrupts)
+Stack size: 31
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+  658   282  59  main.c
+  753     0   0  C:\Program Files (x86)\PICCV5025\Devices\18F2480.h
+  465   137  28  C:\Program Files (x86)\PICCV5025\Drivers\can-18xxx8.c
+  377     0   0  C:\Program Files (x86)\PICCV5025\Drivers\can-18xxx8.h
+  138    63  13  LCD_TM_S.c
+----- -----
+ 2391   482 Total
+
+Page ROM  %  RAM    Vol Diff  Functions:
+---- --- --- ---    --- ----  ----------
+0     38   0    1             @delay_ms1
+0    220   1    1   1216  5.3  can_init
+0     48   0    0    255  2.3  can_set_baud
+0     34   0    2     76  3.1  can_set_mode
+0    304   2   13   1128  6.5  can_set_id
+0    482   3   14    762  9.7  can_get_id
+ Inline        14   1634  6.9  can_getd
+0     20   0    0             @const879
+0     52   0    1    212  1.8  make_out_data
+0     32   0    1     98  1.3  lcd_send_nibble
+0     70   0    3    221  2.9  lcd_send_byte
+0     72   0    2    328  4.2  lcd_init
+0     56   0    4    354  6.0  lcd_gotoxy
+0     34   0    0             @goto10785
+0     66   0    1    272  4.1  lcd_putc
+0     48   0    0    247  3.6  ext1_isr
+0     36   0    0             @goto10866
+0     16   0    0     63  2.6  ext1_isr1
+0   4176  22   34  16702 12.6  MAIN
+0     22   0    0             @const957
+0     34   0    2             @PSTRINGC_9600_31766_31767
+0     14   0    0             @const959
+0     28   0    0             @const960
+0     32   0    3             @PSTRINGCN_9600_31766_31767
+0     66   0    2             @PRINTF_X_9600_31766_31767
+0     34   0    0             @const966
+0     54   0    2             @ITOF
+0    242   1   11             @MULFF
+0    618   3   16             @ADDFF
+0      8   0    0             @const975
+0     32   0    2             @PSTRINGC_896
+0     62   0    5             @FTOSD
+0    142   1   13             @DIV3232
+0    376   2   13             @PRINTF_L32D_896FPFPF
+0      6   0    0             @const986
+0      8   0    0             @const988
+0     40   0    3             @DIV88
+0    102   1    2             @PRINTF_U_896
+0      6   0    0             @const996
+0      4   0    0             @const998
+0    118   1   10             @FLT
+0     18   0    0             @const1003
+0      8   0    0             @const1004
+0      6   0    0             @const1005
+0     30   0    3             @PSTRINGCN_896
+0     10   0    0             @const1008
+0     18   0    0             @const1010
+0      8   0    0             @const1011
+0      6   0    0             @const1012
+0      6   0    0             @const1013
+0     18   0    0             @const1015
+0      4   0    0             @const1016
+0      6   0    0             @const1017
+0      6   0    0             @const1018
+0      6   0    0             @const1019
+0     18   0    0             @const1020
+0      4   0    0             @const1021
+0      6   0    0             @const1022
+0      6   0    0             @const1023
+0      6   0    0             @const1024
+0     18   0    0             @const1025
+0      4   0    0             @const1026
+0      8   0    0             @const1027
+0      4   0    0             @const1028
+0     10   0    0             @const1029
+0      6   0    0             @const1030
+0      6   0    0             @const1032
+0      6   0    0             @const1034
+0     10   0    0             @const1036
+0      6   0    0             @const1037
+0     12   0    0             @const1038
+0      4   0    0             @const1040
+0      6   0    0             @const1041
+0     12   0    0             @const1042
+0      6   0    0             @const1043
+0      4   0    0             @const1044
+0     10   0    0             @const1045
+0     12   0    0             @const1046
+0     18   0    0             @const1047
+0     10   0    0             @const1048
+0     12   0    0             @const1049
+0     18   0    0             @const1050
+0     46   0    0             @goto11216
+0     26   0    0             @const1052
+0    386   2   13             @PRINTF_L32D_9600_31766_31767FPFPF
+0     32   0    0             @const1056
+0     28   0    0             @const1057
+0     28   0    0             @const1058
+0     32   0    0             @const1059
+0     28   0    0             @const1060
+0     34   0    0             @const1061
+0     38   0    0             @const1062
+0    108   1    2             @PRINTF_U_9600_31766_31767
+0    168   1   12             @PRINTF_L32U_9600_31766_31767
+0     30   0    0             @const1068
+0     14   0    0             @const1069
+0     18   0    0             @const1072
+ Inline         0             @cinit1
+
+Program metrics:
+    Functions               15
+    Statements              482
+    Comments                979
+    Volume (V)              30531
+    Difficulty (D)          69.6
+    Effort to implement (E) 2124118
+    Time to implement (T)   32 hours, 47 minutes
+    Est Delivered Bugs (B)  6
+    Cyclomatic Complexity   52
+    Maintainability (MI)    72
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00002     4  0  
+00004-00006     0  4  
+00008-000B8   178  0  
+000BA-03FFE  9260  6938  
+
+
+

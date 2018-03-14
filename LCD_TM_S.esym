@@ -1,0 +1,7 @@
+D G "rs" 0 12 "PIN_C0" "B4"
+D G "enabled" 0 14 "PIN_C1" "B5"
+D G "DB4" 0 15 "PIN_A3" "B0"
+D G "DB5" 0 16 "PIN_A4" "B1"
+D G "DB6" 0 17 "PIN_B7" "B2"
+D G "DB7" 0 18 "PIN_B6" "N3"
+V G "lcd_type" 0 20 "int8"
